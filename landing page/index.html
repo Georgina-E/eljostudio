@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eljostudio — Online Shop Coming Soon</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Cormorant Garamond', serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.55);
+            padding: 50px 30px;
+            border-radius: 18px;
+            max-width: 480px;
+            width: 90%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            backdrop-filter: blur(3px);
+        }
+
+        .logo img {
+            width: 160px;
+            max-width: 60%;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            line-height: 1.4;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .instagram-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        .instagram-link img {
+            width: 26px;
+            height: 26px;
+            margin-right: 12px;
+        }
+
+        .instagram-link:hover {
+            opacity: 0.8;
+        }
+
+        /* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+        /* Small devices (phones) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 35px 22px;
+                border-radius: 14px;
+            }
+
+            .logo img {
+                width: 130px;
+            }
+
+            h1 {
+                font-size: 22px;
+                line-height: 1.35;
+            }
+
+            .instagram-link {
+                font-size: 18px;
+            }
+
+            .instagram-link img {
+                width: 22px;
+                height: 22px;
+            }
+        }
+
+        /* Large desktops */
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 520px;
+                padding: 60px 40px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="eljostudio logo">
+        </div>
+
+        <h1>
+            Our online shop is coming soon ✨<br>
+            Curate your space with ease — contemporary decor, timeless vibes
+        </h1>
+
+        <a class="instagram-link" href="https://www.instagram.com/eljostudio" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png">
+            → Explore more on Instagram
+        </a>
+    </div>
+
+</body>
+</html>
